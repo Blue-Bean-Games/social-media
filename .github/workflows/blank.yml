@@ -10,4 +10,4 @@ jobs:
 
     steps:
       - name: Run a one-line script
-        run: curl ${{ secrets.UPDATE_URL }}
+        run: sleep 5m && curl ${{ secrets.UPDATE_URL }}
